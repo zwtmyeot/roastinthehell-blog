@@ -1,4 +1,4 @@
-baseURL = "http://blog.way.com/"
+baseURL = "https://blog.roastinthehell.com/"
 languageCode = "zh-cn"
 title = "Roast in the Hell"
 theme = "harbor"
