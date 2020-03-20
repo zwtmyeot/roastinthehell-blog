@@ -15,6 +15,13 @@ footnoteReturnLinkContents = "^"
     section = ["JSON", "HTML"]
 
 [[params.nav]]
+  identifier = "tags"
+  name = "Tags"
+  icon = "fas fa-tag fa-lg"
+  url = "tags"
+  weight = 3
+
+[[params.nav]]
   identifier = "about"
   name = "About"
   icon = "fas fa-user fa-lg"
@@ -22,10 +29,10 @@ footnoteReturnLinkContents = "^"
   weight = 3
 
 [[params.nav]]
-  identifier = "tags"
-  name = "Tags"
-  icon = "fas fa-tag fa-lg"
-  url = "tags"
+  identifier = "github"
+  name = "Github"
+  icon = "fab fa-github fa-lg"
+  url = "https://github.com/zwtmyeot"
   weight = 3
 
 [params]
