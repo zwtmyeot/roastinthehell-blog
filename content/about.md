@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2020-03-16T01:45:44+08:00
-draft: true
+draft: false
 ---
 
 你好，这里是我的博客，记录一些我的笔记文章。
