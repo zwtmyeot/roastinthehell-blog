@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "http://blog.way.com/"
 languageCode = "zh-cn"
 title = "Roast in the Hell"
 theme = "harbor"
@@ -28,16 +28,10 @@ footnoteReturnLinkContents = "^"
   url = "tags"
   weight = 3
 
-[[params.nav]]
-  identifier = "search"
-  name = "Search"
-  icon = "fas fa-search fa-lg"
-  url = "search"
-  weight = 3
-
 [params]
   mainSections = ["post"]
   favicon = "favicon.ico"
+  custom_css = ["css/custom_style.css"]
 
   [params.logo]
     url = "icon.jpg"
