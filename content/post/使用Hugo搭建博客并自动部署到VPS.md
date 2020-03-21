@@ -261,6 +261,8 @@ blog.roastinthehell.com {
         # then后面的就是收到GitHub webhook通知后执行的命令
         # 编译后把生成的文件放在网站主目录
         then hugo --source=/var/www/roastinthehell-blog/  --destination=/var/www/blog
+        # 这里的 /webhook 就是在GitHub webhook中填写的 Payload Url 选项中的地址
+        # caddy通过监听这个地址收到webhook发过来的通知
         hook /webhook 填GitHub中设置的通信密码
         hook_type github
     }
